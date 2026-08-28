@@ -1,0 +1,45 @@
+# Пользовательские файлы
+task.md
+
+# C / C++ (Исполняемые файлы, объектные файлы и сборки)
+*.o
+*.obj
+*.so
+*.dylib
+*.dll
+*.a
+*.lib
+*.exe
+*.out
+*.app
+
+# Директории сборки (C/C++ / CMake)
+build/
+bin/
+obj/
+cmake-build-*/
+.cache/
+
+# Python (Кэш и компилированный байткод)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python Виртуальные окружения
+.venv/
+venv/
+env/
+ENV/
+
+# Python Дистрибуция и пакеты
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Временные файлы редакторов и ОС
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
